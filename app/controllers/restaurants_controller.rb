@@ -5,10 +5,11 @@ class RestaurantsController < ApplicationController
   # GET /restaurants.json
   def index
     @restaurants = Restaurant.all
+      
   end
 
   # GET /restaurants/1
-  # GET /restaurants/1.json
+  # GET /restaurants/1.
   def show
   end
 
