@@ -1,25 +1,24 @@
+
 development:
-   adapter: mysql2
+   adapter: mysql
    encoding: utf8
-   database: planbdb
-   username: root
+   database: si_blog_db
+   username: planb
    password: waacc
-   host: localhost
-   port: 3306
+   socket: /tmp/mysql.sock
 
 test:
-   adapter: mysql2
+   adapter: mysql
    encoding: utf8
-   database: planbdb
-   username: root
+   database: si_blog_db
+   username: planb
    password: waacc
-   host: localhost
-   port: 3306
+   socket: /tmp/mysql.sock
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: planbdb
-  pool: 5
+  database: si_blog_db
+  pool: 5 
   username: planb
-  password: waacc
+  password: waacc 
